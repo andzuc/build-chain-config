@@ -1,9 +1,16 @@
+
 version: "2.2"
 dependencies:
   - project: andzuc/debian-base
   - project: andzuc/debian-scilab
     dependencies:
       - project: andzuc/debian-base
+  - project: andzuc/debian-rclone
+    dependencies:
+      - project: andzuc/debian-base
+  - project: andzuc/debian-superscilab
+    dependencies:
+      - project: andzuc/debian-scilab
 default:
   build-command:
     upstream: echo "upstream"
