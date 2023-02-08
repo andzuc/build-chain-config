@@ -5,4 +5,7 @@ dependencies:
     dependencies:
       - project: andzuc/debian-base
 default:
-build:
+  build-command:
+    upstream: echo "upstream"
+    current: echo "current"
+    downstream: echo "downstream"
