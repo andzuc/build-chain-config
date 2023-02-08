@@ -1,7 +1,7 @@
 version: "2.2"
 dependencies:
   - project: andzuc/debian-base
-  - project: andzuc/debian-scilan
+  - project: andzuc/debian-scilab
     dependencies:
       - project: andzuc/debian-base
 default:
