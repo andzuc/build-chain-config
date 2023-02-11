@@ -13,6 +13,6 @@ dependencies:
       - project: andzuc/debian-scilab
 default:
   build-command:
-    upstream: echo "upstream"
-    current: echo "current"
-    downstream: echo "downstream"
+    upstream: echo "upstream ${GROUP}/${PROJECT}/${BRANCH}"
+    current: echo "current ${GROUP}/${PROJECT}/${BRANCH}"
+    downstream: echo "downstream ${GROUP}/${PROJECT}/${BRANCH}"
